@@ -1,8 +1,8 @@
 /*
 Author: Rodrigo Guerrero Paquot
-Project: Library Book Management System.
+Project: Video Game Store Management System
 Purpose: Demonstration of binary/linear search algorithm
-user will input a book name and the program will tell user if the book is available.
+user will input a game name and the program will tell user if the game is available.
 */
 
 #include "functions.h"

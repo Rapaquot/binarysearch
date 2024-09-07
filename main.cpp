@@ -1,8 +1,8 @@
 /*
 Author: Rodrigo Guerrero Paquot
-Project: Library Book Management System.
+Project: Video Game Store Management System
 Purpose: Demonstration of binary/linear search algorithm
-user will input a book name and the program will tell user if the book is available.
+user will input a game name and the program will tell user if the game is available.
 */
 
 #include "main.h"
@@ -12,13 +12,14 @@ using namespace std;
 int main()
 {
 
-    int number;
+    string videoGames[5] = {
+        "The Legend of Zelda: Breath of the Wild",
+        "A plague Tale: Requiem",
+        "Resident Evil 4",
+        "The Legend of Zelda: Majora's Mask",
+        "The Legend of Zelda: Skyward Sword"};
 
-    printf("The name of this program is Library Book Management System \n");
-
-    number = helloWorld();
-
-    cout << number;
+    cout << videoGames[3];
 
     return 0;
 }
